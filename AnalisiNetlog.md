@@ -1,4 +1,6 @@
 Análisis Detallado por Escenario
+<img width="921" height="551" alt="image" src="https://github.com/user-attachments/assets/923904fd-7ead-43a9-94be-e125f10a794a" />
+
 1. Baja Carga (λ = 0.1, ρ = 0.02)
 Modelo Matemático:
 
@@ -78,4 +80,5 @@ Tiempo en cola: 1.628 vs 1.6 teórico (error: 1.7%)
 Tiempo en sistema: 2.028 vs 2.0 teórico (error: 1.4%)
 
 Utilización: 80.15% vs 80% teórico (error: 0.2%)
+
 
