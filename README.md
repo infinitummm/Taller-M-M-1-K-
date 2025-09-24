@@ -12,9 +12,9 @@
 
 1. **Probabilidad de 0 clientes**
 \[
-$
+$$
 P_0 = \frac{1-\rho}{1-\rho^{K+1}}, \quad (\rho \neq 1)
-$
+$$
 \]
 
 2. **Probabilidad estado n**
@@ -96,6 +96,7 @@ Flujo estable, con algo de cola.
  El sistema empieza a congestionarse, aunque aún dentro de capacidad.
 
 ---
+
 
 
 
