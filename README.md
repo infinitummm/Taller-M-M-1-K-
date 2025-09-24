@@ -65,7 +65,7 @@ Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
 - Ts ≈ 0.200  
 - Tw ≈ 0.010  
 
-✅ Sistema casi vacío, esperas mínimas.
+Sistema casi vacío, esperas mínimas.
 
 ---
 
@@ -94,4 +94,5 @@ Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
  El sistema empieza a congestionarse, aunque aún dentro de capacidad.
 
 ---
+
 
