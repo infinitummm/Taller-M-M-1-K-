@@ -11,11 +11,11 @@
 ## 📐 Fórmulas principales
 
 1. **Probabilidad de 0 clientes**
-\[
+
 P_0 = $$
 \frac{1-\rho}{1-\rho^{K+1}}, \quad (\rho \neq 1)
 $$
-\]
+
 
 3. **Probabilidad estado n**
 \[
@@ -96,6 +96,7 @@ Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
 ⚠️ El sistema empieza a congestionarse, aunque aún dentro de capacidad.
 
 ---
+
 
 
 
