@@ -27,6 +27,8 @@ La utilización es mínima (0.05% vs 2% teórico)
 
 Pequeñas diferencias atribuibles a variabilidad estadística
 
+<img width="921" height="468" alt="image" src="https://github.com/user-attachments/assets/e56f4962-891b-4dec-878b-d7fbf4c9516e" />
+
 2. Carga Media (λ = 1.0, ρ = 0.20)
 Modelo Matemático:
 
@@ -50,6 +52,8 @@ Utilización casi idéntica (19.86% vs 20% teórico)
 Longitud de cola ligeramente inferior a la teórica
 
 Tiempo en cola mayor al teórico, posiblemente por efectos transitorios
+
+<img width="921" height="510" alt="image" src="https://github.com/user-attachments/assets/d5dc8d25-3f01-492a-9917-a732534efd70" />
 
 3. Alta Carga (λ = 2.0, ρ = 0.80)
 Modelo Matemático:
@@ -80,5 +84,6 @@ Tiempo en cola: 1.628 vs 1.6 teórico (error: 1.7%)
 Tiempo en sistema: 2.028 vs 2.0 teórico (error: 1.4%)
 
 Utilización: 80.15% vs 80% teórico (error: 0.2%)
+
 
 
