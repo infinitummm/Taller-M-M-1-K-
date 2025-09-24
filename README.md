@@ -8,7 +8,7 @@
 
 ---
 
-##  Fórmulas principales
+## 📐 Fórmulas principales
 
 1. **Probabilidad de 0 clientes**
 \[
@@ -49,14 +49,27 @@ T_w = \frac{N_w}{\lambda_{\text{eff}}}
 
 ---
 
-##  Simulación de Escenarios
+## 📊 Simulación de Escenarios
 
 Se toma **K = 10** y **μ = 5** (5 clientes/tiempo).  
-Se varía **λ** para analizar tres escenarios:
+Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
 
 ---
 
-### 🔹 1. Baja carga (λ = 1, ρ = 0.2)
+###  1. Baja carga (λ = 0.1, ρ = 0.02)
+- P₀ ≈ 0.981  
+- Pₖ ≈ ~0.000  
+- λ_eff ≈ 0.100  
+- Ns ≈ 0.020  
+- Nw ≈ 0.001  
+- Ts ≈ 0.200  
+- Tw ≈ 0.010  
+
+✅ Sistema casi vacío, esperas mínimas.
+
+---
+
+###  2. Carga media (λ = 1, ρ = 0.2)
 - P₀ ≈ 0.834  
 - Pₖ ≈ 1.07×10⁻⁷  
 - λ_eff ≈ 1.0  
@@ -65,35 +78,19 @@ Se varía **λ** para analizar tres escenarios:
 - Ts ≈ 0.25  
 - Tw ≈ 0.084  
 
- Sistema casi vacío, esperas mínimas.
-
----
-
-### 🔹 2. Carga media (λ = 3, ρ = 0.6)
-- P₀ ≈ 0.252  
-- Pₖ ≈ 0.006  
-- λ_eff ≈ 2.982  
-- Ns ≈ 1.49  
-- Nw ≈ 0.74  
-- Ts ≈ 0.50  
-- Tw ≈ 0.25  
-
  Flujo estable, con algo de cola.
 
 ---
 
-### 🔹 3. Alta carga (λ = 4.9, ρ = 0.98)
-- P₀ ≈ 0.020  
-- Pₖ ≈ 0.163  
-- λ_eff ≈ 4.1  
-- Ns ≈ 8.22  
-- Nw ≈ 7.20  
-- Ts ≈ 2.0  
-- Tw ≈ 1.76  
+###  3. Alta carga (λ = 2, ρ = 0.4)
+- P₀ ≈ 0.600  
+- Pₖ ≈ 1.58×10⁻⁴  
+- λ_eff ≈ 2.0  
+- Ns ≈ 0.67  
+- Nw ≈ 0.27  
+- Ts ≈ 0.33  
+- Tw ≈ 0.13  
 
- Sistema congestionado, largas esperas y pérdidas notables.
+ El sistema empieza a congestionarse, aunque aún dentro de capacidad.
 
 ---
-
-	​
-
