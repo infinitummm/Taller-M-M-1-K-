@@ -8,7 +8,7 @@
 
 ---
 
-## 📐 Fórmulas principales
+##  Fórmulas principales
 
 1. **Probabilidad de 0 clientes**
 \[
@@ -49,7 +49,7 @@ T_w = \frac{N_w}{\lambda_{\text{eff}}}
 
 ---
 
-## 📊 Simulación de Escenarios
+## Simulación de Escenarios
 
 Se toma **K = 10** y **μ = 5** (5 clientes/tiempo).  
 Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
@@ -94,3 +94,4 @@ Se varía **λ** entre 0.1 y 2 para analizar tres escenarios:
  El sistema empieza a congestionarse, aunque aún dentro de capacidad.
 
 ---
+
